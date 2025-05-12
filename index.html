@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Reklamy Analyzer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .upload-section {
+            text-align: center;
+            padding: 40px;
+            border: 2px dashed #ccc;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            background-color: #ff0050;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>TikTok Reklamy Analyzer</h1>
+        <div class="upload-section">
+            <h2>Nahrajte obrázok produktu</h2>
+            <input type="file" id="imageUpload" accept="image/*">
+            <button class="button" onclick="analyzeImage()">Analyzovať</button>
+        </div>
+        <div id="results">
+            <!-- Tu sa budú zobrazovať výsledky -->
+        </div>
+    </div>
+
+    <script>
+        function analyzeImage() {
+            // Tu bude logika pre analýzu obrázka
+            console.log('Analýza začatá...');
+        }
+    </script>
+</body>
+</html>
